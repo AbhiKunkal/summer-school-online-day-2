@@ -58,6 +58,8 @@ It was created as part of the **"Summer School Online Day 2"** assignment.
 ---
 
 ## 📂 File Structure
+
+```
 summer-school-online-day-2/
 ├── index.html
 ├── style.css
@@ -66,8 +68,7 @@ summer-school-online-day-2/
 └── images/
 ├── profile_photo.jpg
 └── icons8-profile-48.png (favicon)
-
-
+```
 ---
 
 ## 🚀 How to Run Locally
