@@ -72,17 +72,16 @@ summer-school-online-day-2/
 
 ## 🚀 How to Run Locally
 
----
-
-## 🚀 How to Run Locally
-
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AbhiKunkal/summer-school-online-day-2.git
+    git clone https://github.com/AbhiKunkal/summer-school-online-day-2.git
+   ````
 2. Navigate to the project directory:
-  ```bash
-  cd summer-school-online-day-2
-3. Open index.html in your web browser.
+   ```bash
+    cd summer-school-online-day-2
+   ```
+3. Open `index.html` in your web browser.
+
 
 
 
