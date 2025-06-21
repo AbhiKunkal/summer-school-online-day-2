@@ -1,24 +1,90 @@
-📄 CSS Types and Selectors Used:
+# 🧑‍💼 Personal Profile Card
 
-1. Inline CSS:
-- Applied directly to the <section> tag for background color.
+This is a **simple and clean personal profile card** built using **HTML and CSS**.  
+It was created as part of the **"Summer School Online Day 2"** assignment.
 
-2. Internal CSS:
-- Inside the <style> block in the <head>.
-- Styles for body, card, h1, .bio, ul, #profile-pic, .contact p, a[href], etc.
+---
 
-3. External CSS:
-- Linked via style.css file.
-- Used for hover effects, list item styles, and card transitions.
+## 📁 Repository Name
+`summer-school-online-day-2`
 
-✅ Selectors Used:
-- ID Selector: #profile-pic
-- Class Selector: .bio, .card, .contact
-- Element Selector: h1, p, ul, li
-- Group Selector: h1, h2
-- Descendant Selector: .contact p
-- Attribute Selector: a[href]
+---
 
-🎯 Bonus:
-- Hover effect added to links.
-- Border and hover scaling effect added to the profile card.
+## 👤 Author
+**Abhishek Kumar**
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3** (Inline, Internal & External)
+
+---
+
+## 📌 Project Features
+
+- 🖼️ Profile image (styled as a circle)
+- 👨‍💼 Name and short bio
+- 💼 List of favorite hobbies
+- 📬 Contact section with mail and social link
+- 🎨 Light-colored profile card with shadow and border
+- 🖱️ Hover effect on contact links
+- 🌟 Favicon added (in `images/` folder)
+
+---
+
+## 🎯 CSS Techniques Demonstrated
+
+| Type            | Used Where                                  |
+|-----------------|----------------------------------------------|
+| ✅ Inline CSS    | Section background color                   |
+| ✅ Internal CSS  | Basic styling within `<style>` tag         |
+| ✅ External CSS  | Majority of styling done in `style.css`    |
+
+---
+
+## 🧪 CSS Selectors Used
+
+| Selector Type       | Example Used                      |
+|---------------------|-----------------------------------|
+| Element Selector    | `h1`, `p`, `ul`, `li`             |
+| Class Selector      | `.bio`, `.card`, `.contact`       |
+| ID Selector         | `#profile-pic`                    |
+| Group Selector      | `h1, h2`                          |
+| Descendant Selector | `.contact p`                      |
+| Attribute Selector  | `a[href]`                         |
+
+---
+
+## 📂 File Structure
+summer-school-online-day-2/
+├── index.html
+├── style.css
+├── readme.txt
+├── README.md
+└── images/
+├── profile_photo.jpg
+└── icons8-profile-48.png (favicon)
+
+
+---
+
+## 🚀 How to Run Locally
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AbhiKunkal/summer-school-online-day-2.git
+2. Navigate to the project directory:
+  ```bash
+  cd summer-school-online-day-2
+3. Open index.html in your web browser.
+
+
+
+
+
