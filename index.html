@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile Card</title>
+  <link rel="icon" type="image/png" href="images/icons8-profile-48.png">
+
+  
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .card {
+      width: 350px;
+      margin: auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .bio {
+      color: #555;
+      margin: 10px 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .contact p {
+      margin: 5px;
+    }
+
+    a[href] {
+      color: #0f98e2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a[href]:hover {
+      text-decoration: underline;
+    }
+
+    #profile-pic {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Inline CSS example -->
+  <section class="card" style="background-color: #e3ecb6;">
+    <img id="profile-pic" src="images/profile_photo.jpg" alt="Profile Image" >
+    <h1>Abhishek Kumar</h1>
+    <p class="bio">I’m a final-year ECE student at BIT Mesra, passionate about web development and problem solving.</p>
+
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>📚 Reading Books</li>
+      <li>🎮 Playing Cricket</li>
+      <li>🧠 Solving Puzzles</li>
+    </ul>
+
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <p><a href="mailto:abhishekkunkal3@gmail.com">abhishekkunkal3@gmail.com</a></p>
+      <p><a href="https://www.linkedin.com/in/abhishek-kumar-36814424b/" target="_blank">LinkedIn</a></p>
+    </div>
+  </section>
+
+</body>
+</html>

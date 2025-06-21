@@ -1,0 +1,57 @@
+.card {
+  border: 2px solid #ccc;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+  background-color: #e6f7ff;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+ul li {
+  margin: 8px 0;
+  font-size: 16px;
+}
+#profile-pic {
+  width: 124px;
+  height: 189px;
+  border-radius: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto 10px;
+  border: 3px solid #0b70a7;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to right, #103a88, #9bbdec); /* gradient background */
+  /* Or use a background image:
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  */
+}
+.card {
+  width: 350px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+h1 {
+  margin-bottom: 5px;
+}
+
+.bio {
+  font-style: italic;
+  padding: 0 15px;
+}
